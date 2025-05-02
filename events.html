@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>View Events</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Event Details</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="create.html">Create Event</a></li>
+          <li><a href="events.html" class="active">View Events</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="event-info">
+        <h2>Event Information</h2>
+        <p><strong>Event Name:</strong> <span id="event-name"></span></p>
+        <p><strong>Event Date:</strong> <span id="event-date"></span></p>
+        <p><strong>Location:</strong> <span id="event-location"></span></p>
+        <p>
+          <strong>Description:</strong> <span id="event-description"></span>
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 EventHub. All rights reserved.</p>
+    </footer>
+
+    <!-- External JS file for displaying event -->
+    <script src="events.js"></script>
+  </body>
+</html>
